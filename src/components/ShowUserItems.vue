@@ -18,7 +18,7 @@
 
     <MyItem
         v-if="selectedRightItem"
-        class="full-height border-large-solid w-200 ml-auto"
+        class="border-large-solid w-200 ml-auto"
         :label="selectedRightItem.name"
     />
 </template>
