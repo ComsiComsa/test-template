@@ -1,0 +1,15 @@
+.main {
+  padding: 20px;
+  min-height: 100vh;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  &__bottom {
+    display: flex;
+    gap: 20px;
+  }
+}

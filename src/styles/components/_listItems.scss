@@ -1,0 +1,11 @@
+.items {
+  &__container {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+  }
+}

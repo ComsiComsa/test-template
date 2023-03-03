@@ -1,0 +1,19 @@
+.item {
+  &__container {
+    padding: 20px;
+    border: 1px solid grey;
+    cursor: pointer;
+    transition: all .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &:hover {
+      background-color: lightblue;
+    }
+
+    &:active {
+      background-color: aquamarine;
+    }
+  }
+}

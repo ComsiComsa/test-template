@@ -1,0 +1,16 @@
+.show {
+  &__left {
+    padding: 20px;
+    border: 2px solid black;
+  }
+
+  &__list {
+    display: flex;
+    gap: 20px
+  }
+
+  &__label {
+    text-align: right;
+    margin-top: 10px;
+  }
+}
